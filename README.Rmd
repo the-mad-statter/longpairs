@@ -52,7 +52,7 @@ sticker(
   h_fill = "#ffffff",
   h_color = params$color,
   url = paste("github.com", params$github, params$package, sep = "/"),
-  u_color = "black",
+  u_color = "#000000",
   u_family = params$font,
   u_size = 3.5,
   u_x = 1.005,
