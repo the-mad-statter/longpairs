@@ -1,0 +1,32 @@
+Package: longpairs
+Type: Package
+Title: Make Pairwise Comparisons from Tidy Data
+Version: 0.1.0
+Authors@R: 
+    person(given = "Matthew",
+           family = "Schuelke",
+           role = c("aut", "cre"),
+           email = "schuelke@wustl.edu",
+           comment = c(ORCID = "0000-0001-5755-1725"))
+Description: An R package providing helpful functions to make pairwise 
+    comparisons from tidy data.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends:
+    dplyr
+Imports: 
+    broom,
+    broom.mixed,
+    epitools,
+    lme4,
+    rlang,
+    tibble,
+    tidyr
+URL: https://github.com/the-mad-statter/longpairs
+BugReports: https://github.com/the-mad-statter/longpairs/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
