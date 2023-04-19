@@ -5,14 +5,22 @@
 
 <!-- badges: start -->
 
-[![Under
-Development](https://img.shields.io/badge/status-under%20development-red.svg)](https://github.com/the-mad-statter/longpairs)
-[![Last
-Commit](https://img.shields.io/github/last-commit/the-mad-statter/longpairs.svg)](https://github.com/the-mad-statter/longpairs/commits/main)
-[![style](https://github.com/the-mad-statter/longpairs/actions/workflows/style.yaml/badge.svg)](https://github.com/the-mad-statter/longpairs/actions/workflows/style.yaml)
-[![lint](https://github.com/the-mad-statter/longpairs/actions/workflows/lint.yaml/badge.svg)](https://github.com/the-mad-statter/longpairs/actions/workflows/lint.yaml)
-[![test-coverage](https://github.com/the-mad-statter/longpairs/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/the-mad-statter/longpairs/actions/workflows/test-coverage.yaml)
-[![R-CMD-check](https://github.com/the-mad-statter/longpairs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/the-mad-statter/longpairs/actions/workflows/R-CMD-check.yaml)
+[![Project Status: WIP - Initial development is in progress, but there
+has not yet been a stable, usable release suitable for the
+public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![](https://img.shields.io/badge/devel%20version-0.1.0-yellow.svg)](https://github.com/the-mad-statter/longpairs)
+[![](https://img.shields.io/github/last-commit/the-mad-statter/longpairs.svg)](https://github.com/the-mad-statter/longpairs/commits/main)
+[![License: GPL (\>=
+3)](https://img.shields.io/badge/license-GPL%20(%3E=%203)-blue.svg)](https://cran.r-project.org/web/licenses/GPL%20(%3E=%203))
+<br /> [![R build
+status](https://github.com/the-mad-statter/longpairs/workflows/Style/badge.svg)](https://github.com/the-mad-statter/longpairs/actions)
+[![R build
+status](https://github.com/the-mad-statter/longpairs/workflows/lint/badge.svg)](https://github.com/the-mad-statter/longpairs/actions)
+[![R build
+status](https://github.com/the-mad-statter/longpairs/workflows/test-coverage/badge.svg)](https://github.com/the-mad-statter/longpairs/actions)
+[![R build
+status](https://github.com/the-mad-statter/longpairs/workflows/R-CMD-check/badge.svg)](https://github.com/the-mad-statter/longpairs/actions)
 <!-- badges: end -->
 
 ## Overview

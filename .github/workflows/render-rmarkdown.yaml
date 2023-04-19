@@ -34,6 +34,7 @@ jobs:
       - name: Install rmarkdown
         run: |
           install.packages("rmarkdown")
+          install.packages("badger")
         shell: Rscript {0}
 
       - name: Render Rmarkdown files and Commit Results

@@ -18,48 +18,6 @@ knitr::opts_chunk$set(
   out.width = "100%",
   eval = FALSE
 )
-
-make_under_development_badge <-
-  function(github = params$github,
-           package = params$package) {
-    sprintf(
-      paste0(
-        "[![Under Development]",
-        "(https://img.shields.io/badge/status-under%%20development-red.svg)]",
-        "(https://github.com/%s/%s)"
-      ),
-      github, package
-    )
-  }
-
-make_last_commit_badge <-
-  function(branch = "main",
-           github = params$github,
-           package = params$package) {
-    sprintf(
-      paste0(
-        "[![Last Commit]",
-        "(https://img.shields.io/github/last-commit/%s/%s.svg)]",
-        "(https://github.com/%s/%s/commits/%s)"
-      ),
-      github, package, github, package, branch
-    )
-  }
-
-make_github_action_badge <-
-  function(name,
-           yaml = paste0(name, ".yaml"),
-           github = params$github,
-           package = params$package) {
-    sprintf(
-      paste0(
-        "[![%s]",
-        "(https://github.com/%s/%s/actions/workflows/%s/badge.svg)]",
-        "(https://github.com/%s/%s/actions/workflows/%s)"
-      ),
-      name, github, package, yaml, github, package, yaml
-    )
-  }
 ```
 
 ```{r sticker, eval=FALSE, include=FALSE}
@@ -106,12 +64,16 @@ sticker(
 # `r params$package` <img src="man/figures/`r params$package`_hex.png" align="right" width="125px" />
 
 <!-- badges: start -->
-`r make_under_development_badge()`
-`r make_last_commit_badge()`
-`r make_github_action_badge("style")`
-`r make_github_action_badge("lint")`
-`r make_github_action_badge("test-coverage")`
-`r make_github_action_badge("R-CMD-check")`
+`r badger::badge_repostatus("WIP")`
+`r badger::badge_lifecycle("experimental")`
+`r badger::badge_github_version(color = "yellow")`
+`r badger::badge_last_commit(branch = "main")`
+`r badger::badge_license()`
+<br />
+`r badger::badge_github_actions(action = "Style")`
+`r badger::badge_github_actions(action = "lint")`
+`r badger::badge_github_actions(action = "test-coverage")`
+`r badger::badge_github_actions(action = "R-CMD-check")`
 <!-- badges: end -->
 
 ## Overview
